@@ -112,3 +112,5 @@ export const weatherQuotes = {
     "हवा आपके रास्ते को बदल सकती है, लेकिन आपका उद्देश्य कभी नहीं।", // "The wind can change your path but never your purpose."
   ],
 };
+
+export const apiKey = "b03a640e5ef6980o4da35b006t5f2942";

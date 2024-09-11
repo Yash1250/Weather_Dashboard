@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import SearchEngine from "./SearchEngine";
 import Forecast from "./Forecast";
-import { weatherQuotes } from "../utils/constant";
+import { weatherQuotes, apiKey } from "../utils/constant";
 import "../styles.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import cloudImage from "../images/cloud.png";
@@ -25,8 +25,6 @@ function App() {
   });
   const [leftQuote, setLeftQuote] = useState("");
   const [rightQuote, setRightQuote] = useState("");
-
-  const apiKey = "b03a640e5ef6980o4da35b006t5f2942";
 
   // Function to get the current date
   const toDate = () => {
